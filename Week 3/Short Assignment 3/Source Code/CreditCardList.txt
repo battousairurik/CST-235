@@ -1,0 +1,14 @@
+michael, weaver, 3 sunny brook circle, highland, ny, 12528, 
+1234567812345678, 123, 0101
+bobby, tarter, 123 lazy lane, venerable, nj, 12345,
+8765432187654321, 123, 0101
+rob, tom, 45 city street, bob town, pa, 32322,
+1212121212121212, 456, 1234
+tim, burton, 1 arbitrary lane, nowhereville, no, 00000,
+0000000000000000, 000, 0000
+haha, haha, 1212 haha lane, hahaland, ha, 12121
+2323232323232323, 123, 1212
+no, thanks, 456 no more lane, toomanychoices, or, 98765,
+9876543219876543, 987, 9999
+many, money, 999 money street, toomuchmoney, mo, 99999
+9999999999999999, 999, 8999

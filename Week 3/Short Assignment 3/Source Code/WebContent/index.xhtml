@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; UTF-8" />
+	<h:title>Short Assignment 3</h:title>
+</h:head>
+<h:body>
+	<h:form>
+	<h:panelGrid colums="3">
+		<h:outputLabel value="First Name" />
+		<h:inputText id="firstNameInput" value="#{CreditCardBean.firstName}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:outputLabel value="Last Name" />
+		<h:inputText id="lastNameInput" value="#{CreditCardBean.lastName}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:outputLabel value="Billing Address" />
+		<h:inputText id="billingAddressInput" value="#{CreditCardBean.billingAddress}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:outputLabel value="Card Number" />
+		<h:inputText id="cardNumberInput" value="#{CreditCardBean.creditCardNumber}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:outputLabel value="Expiration Date" />
+		<h:inputText id="expirationDateInput" value="#{CreditCardBean.expirationDate}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:outputLabel value="Security Code" />
+		<h:inputText id="securityCodeInput" value="#{CreditCardBean.securityCode}"
+			required="true" requiredMessage="This is a required field."/>
+		
+		
+		<h:commandButton id="authenticateButton" value="Submit" 
+			action="responsePage.xhtml?faces-redirect=true" />
+	</h:panelGrid>
+	</h:form>
+</h:body>
+</html>
