@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.colorChangeButton {
+	background-color: grey;
+	color: red;
+}
+.colorChangeButton:selected {
+	background-color: red;
+	color: black;
+}
