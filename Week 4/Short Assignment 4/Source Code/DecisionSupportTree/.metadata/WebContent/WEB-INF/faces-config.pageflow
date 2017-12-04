@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15121043907710" configfile="/DecisionSupportTree/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="QuestionPage.xhtml" x="12" y="12" id="pf15121052889181" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf15122766907350" inlinks="pf15122766907351" path="/QuestionPage.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="SuggestionPage.xhtml" x="12" y="132" id="pf15121052889182" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf15122766907351" inlinks="pf15122766907350" path="/SuggestionPage.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question1.xhtml" x="468" y="12" id="pf15123644419780" outlinks="pf15123644419781 pf15123644419782" path="/PagesOnlyAttempt/Question1.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question2.xhtml" x="312" y="96" id="pf15123644419783" outlinks="pf15123647036295 pf15123647036296" inlinks="pf15123644419781" path="/PagesOnlyAttempt/Question2.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question3.xhtml" x="804" y="60" id="pf15123644419784" outlinks="pf15123647036297 pf15123647036298" inlinks="pf15123644419782" path="/PagesOnlyAttempt/Question3.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question4.xhtml" x="144" y="168" id="pf15123647036299" outlinks="pf151236470362910 pf151236470362911" inlinks="pf15123647036295" path="/PagesOnlyAttempt/Question4.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question5.xhtml" x="456" y="156" id="pf151236470362912" outlinks="pf151236470362913 pf151236470362914" inlinks="pf15123647036296" path="/PagesOnlyAttempt/Question5.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question6.xhtml" x="732" y="161" id="pf151236470362915" outlinks="pf151236470362916 pf151236470362917" inlinks="pf15123647036297" path="/PagesOnlyAttempt/Question6.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question7.xhtml" x="1044" y="144" id="pf151236470362918" outlinks="pf151236470362919 pf151236470362920" inlinks="pf15123647036298" path="/PagesOnlyAttempt/Question7.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question8.xhtml" x="-12" y="264" id="pf151236470362921" outlinks="pf151236501039229 pf151236501039230" inlinks="pf151236470362910" path="/PagesOnlyAttempt/Question8.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question9.xhtml" x="189" y="264" id="pf151236470362922" outlinks="pf151236501039231 pf151236501039232" inlinks="pf151236470362911" path="/PagesOnlyAttempt/Question9.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question10.xhtml" x="332" y="264" id="pf151236470362923" outlinks="pf151236501039233 pf151236501039234" inlinks="pf151236470362914" path="/PagesOnlyAttempt/Question10.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question11.xhtml" x="529" y="336" id="pf151236470362924" outlinks="pf151236501039235 pf151236501039236" inlinks="pf151236470362913" path="/PagesOnlyAttempt/Question11.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question12.xhtml" x="708" y="336" id="pf151236470362925" outlinks="pf151236501039237 pf151236501039238" inlinks="pf151236470362916" path="/PagesOnlyAttempt/Question12.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question13.xhtml" x="912" y="336" id="pf151236470362926" outlinks="pf151236501039239 pf151236501039240" inlinks="pf151236470362917" path="/PagesOnlyAttempt/Question13.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question14.xhtml" x="1191" y="348" id="pf151236470362927" outlinks="pf151236501039241 pf151236501039242" inlinks="pf151236470362919" path="/PagesOnlyAttempt/Question14.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Question15.xhtml" x="1344" y="283" id="pf151236470363028" outlinks="pf151236501039243 pf151236501039244" inlinks="pf151236470362920" path="/PagesOnlyAttempt/Question15.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer1.xhtml" x="-38" y="336" id="pf151236501039245" inlinks="pf151236501039229" path="/PagesOnlyAttempt/Answer1.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer2.xhtml" x="84" y="401" id="pf151236501039246" inlinks="pf151236501039230" path="/PagesOnlyAttempt/Answer2.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer3.xhtml" x="148" y="336" id="pf151236501039247" inlinks="pf151236501039231" path="/PagesOnlyAttempt/Answer3.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer4.xhtml" x="274" y="432" id="pf151236501039248" inlinks="pf151236501039232" path="/PagesOnlyAttempt/Answer4.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer5.xhtml" x="321" y="336" id="pf151236501039249" inlinks="pf151236501039233" path="/PagesOnlyAttempt/Answer5.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer6.xhtml" x="439" y="432" id="pf151236501039250" inlinks="pf151236501039234" path="/PagesOnlyAttempt/Answer6.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer7.xhtml" x="619" y="444" id="pf151236501039251" inlinks="pf151236501039235" path="/PagesOnlyAttempt/Answer7.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer8.xhtml" x="755" y="528" id="pf151236501039252" inlinks="pf151236501039236" path="/PagesOnlyAttempt/Answer8.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer9.xhtml" x="808" y="432" id="pf151236501039253" inlinks="pf151236501039237" path="/PagesOnlyAttempt/Answer9.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer10.xhtml" x="948" y="528" id="pf151236501039254" inlinks="pf151236501039238" path="/PagesOnlyAttempt/Answer10.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer11.xhtml" x="1008" y="432" id="pf151236501039255" inlinks="pf151236501039239" path="/PagesOnlyAttempt/Answer11.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer12.xhtml" x="1164" y="516" id="pf151236501039256" inlinks="pf151236501039240" path="/PagesOnlyAttempt/Answer12.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer13.xhtml" x="1200" y="432" id="pf151236501039257" inlinks="pf151236501039241" path="/PagesOnlyAttempt/Answer13.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer14.xhtml" x="1404" y="516" id="pf151236501039258" inlinks="pf151236501039242" path="/PagesOnlyAttempt/Answer14.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer15.xhtml" x="1452" y="396" id="pf151236501039259" inlinks="pf151236501039243" path="/PagesOnlyAttempt/Answer15.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="PagesOnlyAttempt/Answer16.xhtml" x="1640" y="348" id="pf151236501039260" inlinks="pf151236501039244" path="/PagesOnlyAttempt/Answer16.xhtml"/>
+  <links id="pf15122766907351" target="pf15121052889181" source="pf15121052889182" outcome="QuestionPage?faces-redirect=true"/>
+  <links id="pf15122766907350" target="pf15121052889182" source="pf15121052889181" outcome="SuggestionPage?faces-redirect=true"/>
+  <links id="pf15123644419781" target="pf15123644419783" source="pf15123644419780" outcome="Question2?faces-redirection=true"/>
+  <links id="pf15123644419782" target="pf15123644419784" source="pf15123644419780" outcome="Question3?faces-redirect=true"/>
+  <links id="pf15123647036295" target="pf15123647036299" source="pf15123644419783" outcome="Question4?faces-redirection=true"/>
+  <links id="pf15123647036296" target="pf151236470362912" source="pf15123644419783" outcome="Question5?faces-redirect=true"/>
+  <links id="pf15123647036297" target="pf151236470362915" source="pf15123644419784" outcome="Question6?faces-redirection=true"/>
+  <links id="pf15123647036298" target="pf151236470362918" source="pf15123644419784" outcome="Question7?faces-redirect=true"/>
+  <links id="pf151236470362910" target="pf151236470362921" source="pf15123647036299" outcome="Question8?faces-redirection=true" redirect="true"/>
+  <links id="pf151236470362911" target="pf151236470362922" source="pf15123647036299" outcome="Question9?faces-redirect=true" redirect="true"/>
+  <links id="pf151236470362913" target="pf151236470362924" source="pf151236470362912" outcome="Question11?faces-redirect=true"/>
+  <links id="pf151236470362914" target="pf151236470362923" source="pf151236470362912" outcome="Question10?faces-redirection=true"/>
+  <links id="pf151236470362916" target="pf151236470362925" source="pf151236470362915" outcome="Question12?faces-redirection=true"/>
+  <links id="pf151236470362917" target="pf151236470362926" source="pf151236470362915" outcome="Question13?faces-redirect=true"/>
+  <links id="pf151236470362919" target="pf151236470362927" source="pf151236470362918" outcome="Question14?faces-redirection=true"/>
+  <links id="pf151236470362920" target="pf151236470363028" source="pf151236470362918" outcome="Question15?faces-redirect=true"/>
+  <links id="pf151236501039229" target="pf151236501039245" source="pf151236470362921" outcome="Answer1?faces-redirection=true"/>
+  <links id="pf151236501039230" target="pf151236501039246" source="pf151236470362921" outcome="Answer2?faces-redirect=true"/>
+  <links id="pf151236501039231" target="pf151236501039247" source="pf151236470362922" outcome="Answer3?faces-redirection=true"/>
+  <links id="pf151236501039232" target="pf151236501039248" source="pf151236470362922" outcome="Answer4?faces-redirect=true"/>
+  <links id="pf151236501039233" target="pf151236501039249" source="pf151236470362923" outcome="Answer5?faces-redirection=true"/>
+  <links id="pf151236501039234" target="pf151236501039250" source="pf151236470362923" outcome="Answer6?faces-redirect=true"/>
+  <links id="pf151236501039235" target="pf151236501039251" source="pf151236470362924" outcome="Answer7?faces-redirection=true"/>
+  <links id="pf151236501039236" target="pf151236501039252" source="pf151236470362924" outcome="Answer8?faces-redirect=true"/>
+  <links id="pf151236501039237" target="pf151236501039253" source="pf151236470362925" outcome="Answer9?faces-redirection=true"/>
+  <links id="pf151236501039238" target="pf151236501039254" source="pf151236470362925" outcome="Answer10?faces-redirect=true"/>
+  <links id="pf151236501039239" target="pf151236501039255" source="pf151236470362926" outcome="Answer11?faces-redirection=true"/>
+  <links id="pf151236501039240" target="pf151236501039256" source="pf151236470362926" outcome="Answer12?faces-redirect=true"/>
+  <links id="pf151236501039241" target="pf151236501039257" source="pf151236470362927" outcome="Answer13?faces-redirection=true"/>
+  <links id="pf151236501039242" target="pf151236501039258" source="pf151236470362927" outcome="Answer14?faces-redirect=true"/>
+  <links id="pf151236501039243" target="pf151236501039259" source="pf151236470363028" outcome="Answer15?faces-redirection=true"/>
+  <links id="pf151236501039244" target="pf151236501039260" source="pf151236470363028" outcome="Answer16?faces-redirect=true"/>
+</pageflow:Pageflow>
