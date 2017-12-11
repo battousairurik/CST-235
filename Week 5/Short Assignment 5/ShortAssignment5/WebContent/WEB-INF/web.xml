@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>ShortAssignment5</display-name>
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>/faces/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Initialization</servlet-name>
+    <servlet-class>ReadInitParamServlet</servlet-class>
+    <init-param>
+    	<param-name>Default Email</param-name>
+    	<param-value>default@web.com</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>Default Username</param-name>
+    	<param-value>clammyHands</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>Default Favorite</param-name>
+    	<param-value>Pizza with cheese</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>Default contact info</param-name>
+    	<param-value>my phone number</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Initialization</servlet-name>
+    <url-pattern>/initialize</url-pattern>
+  </servlet-mapping>
+</web-app>
