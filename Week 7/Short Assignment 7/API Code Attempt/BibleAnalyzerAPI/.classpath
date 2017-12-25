@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_151"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BibleAnalyzer_Client"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BibleAnalyzer_Server"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FindWordCount"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/verseSearch"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
